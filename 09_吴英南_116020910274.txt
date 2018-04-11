@@ -1,0 +1,16 @@
+git 学习总结
+
+git 是一个分布式版本控制软件,最初由Linus Torvalds创作.
+
+git 常用命令如下
+
+add 增加新文件
+branch 选择,列出或删除分支
+checkout 检出,将HEAD移动到新分支
+clone 克隆,字面意义
+commit 提交更新到本地库
+diff 对不同提交做比较
+init 初始化仓库
+pull 从另一个库获取更新并合并
+push 提交更新至远程库
+
