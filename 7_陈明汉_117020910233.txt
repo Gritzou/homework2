@@ -1,0 +1,32 @@
+﻿一、本地使用
+git
+git init 本地目录生成git管理
+
+git add file 将本地文件添加到发送缓冲区
+
+git commit -m “message” 将缓冲区的内容提交
+
+
+   还有许多进行版本恢复和更替的指令，可以参考https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+
+
+
+二、远程使用自己的github（需要预先配置好双方的ssh秘钥）
+
+git remote add origin git@github.com:用户名/库名.git 将本地hub与远程hub关联
+
+git push origin master 将本地项目同步给远程hub
+
+git clone git@github.com:用户名/库名.git 拷贝一份远程项目到本地 
+
+
+
+三、加入他人的git项目
+
+1、使用fork拷贝他人的项目到自己的github
+
+2、本地使用clone命令得到本地副本，修改更新
+
+3、将本地内容push到自己的github上 
+
+4、发起对对方的pull request，对方同意之后就能够把自己做的修改显示到对方的项目上 
