@@ -1,0 +1,15 @@
+git是一个好用的版本管理工具，可以方便地管理文本形式的文件（代码）。
+
+bash基本操作
+mkdir foldername - 创建foldername 空目录，默认在安装git的目录下
+cd foldername - 进入foldername版本库
+pwd - 显示当前目录
+git init - 初始化git库
+git add filename.txt - 添加文件到暂存区
+git commit -m "label" - 提交改动到库
+git status - 查看库的状态
+git diff - 查看修改内容
+git log - 查看提交日志
+git reset --hard commit_id 回退到某个版本
+
+github是一个免费的开源仓库，在github上可以任意fork开源库，fork后可以任意读写，也可以pull requst给官方库贡献代码
